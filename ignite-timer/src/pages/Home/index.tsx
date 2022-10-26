@@ -35,6 +35,7 @@ export function Home() {
 
   function handleCreateNewCycle(data: InputPropsSubmit) {
     createNewCycle(data);
+    reset();
   }
 
   const task = watch("task");
